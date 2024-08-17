@@ -1,322 +1,322 @@
 [
-    {
-        "id": 1,
-        "name": "Edamame",
-        "price": 4900,
-        "description": "es un grano de soja inmadura que todavía no se ha sacado de su vaina y que se puede consumir tal cual. Debido a su composición nutricional, se asocia con varios beneficios para la salud. Es rico en proteínas vegetales y bajo en calorías.Cada porción de 155 gramos de edamame aporta lo siguiente:, Calorías: 188, Grasa: 8 gramos, Sodio: 9,4 miligramos, Carbohidratos: 13,8 gramos, Fibra: 8 gramos, Azúcares: 3,4 gramos, Proteína: 18,4 gramos.",
-        "category": "Personal",
-        "image": "edamame.avif"
-    },
-    {
-        "id": 2,
-        "name": "Gyoza",
-        "price": 17650,
-        "description": "es una empanadilla japonesa que se rellena principalmente de carne y vegetales, se sirven con una salsa que se prepara con vinagre de arroz y aceite de sésamo., 100 gramos de Gyoza contienen en promedio:, Calorías: 186, Grasas: 8 gramos, Carbohidratos: 19 gramos, Proteínas: 8 gramos.",
-        "category": "Personal",
-        "image": "gioza.avif"
-    },
-    {
-        "id": 3,
-        "name": "Tempura de Camaron",
-        "price": 27250,
-        "description": "es un plato salado que consiste en camarones bañados en masa que se han frito en aceite hasta que su recubrimiento se vuelva crujiente y dorado., 5 piezas medianas de Tempura de Camarones contienen en promedio:, Calorías: 80, Proteínas: 10.02g, Carbohidratos: 5.7g, Fibra: 0.2g, Azúcar: 0.26g, Grasa: 1.53g, Grasa Saturada: 0.37g, Grasa Poliinsaturada: 0.444g, Grasa Monoinsaturada: 0.374g, Colesterol: 89mg, Sodio: 236mg, Potasio: 95mg.",
-        "category": "Personal",
-        "image": "tempuradecamaron.avif"
-    },
-    {
-        "id": 4,
-        "name": "Tempura de Verduras",
-        "price": 21300,
-        "description": "consiste en una variedad de vegetales bañados en una masa ligera y luego fritos hasta que la capa exterior se vuelve crujiente y dorada., 100 gramos de Tempura de Verduras contienen en promedio:, Calorías: 161, Proteínas: 4.23g, Carbohidratos: 13.78g, Fibra: 1.6g, Azúcar: 1.36g, Grasa: 10.09g, Grasa Saturada: 2.673g, Grasa Monoinsaturada: 5.528g, Grasa Poliinsaturada: 1.177g, Colesterol: 65mg, Sodio: 90mg, Potasio: 172mg.",
-        "category": "Personal",
-        "image": "tempuradeverdura.avif"
-    },
-    {
-        "id": 5,
-        "name": "Nigiri de Atún",
-        "price": 8400,
-        "description": "Se compone de una bola de arroz para sushi cubierta con una rebanada de atún de alta calidad., una pieza de Nigiri de Atún contiene en promedio:, Calorías: 46, Proteínas: 1.94g, Carbohidratos: 9.16g, Azúcar: 1.9g, Grasa: 0.12g, Grasa Saturada: 0.03g, Grasa Monoinsaturada: 0.027g, Grasa Poliinsaturada: 0.033g, Colesterol: 2mg, Sodio: 236mg, Potasio: 50mg.",
-        "category": "Personal",
-        "image": "nigirideatun.avif"
-    },
-    {
-        "id": 6,
-        "name": "Nigiri de Salmón",
-        "price": 14400,
-        "description": "Consiste en una pequeña porción de arroz para sushi moldeada a mano en forma de un pequeño cilindro, sobre la cual se coloca una fina lámina de salmón crudo., una pieza de Nigiri de Salmón contiene en promedio:, Calorías: 48, Proteínas: 1.85g, Carbohidratos: 9g, Azúcar: 1.92g, Grasa: 0.36g, Grasa Saturada: 0.081g, Grasa Monoinsaturada: 0.126g, Grasa Poliinsaturada: 0.118g, Colesterol: 2mg, Sodio: 236mg, Potasio: 49mg.",
-        "category": "Personal",
-        "image": "nigiridesalmon.avif"
-    },
-    {
-        "id": 7,
-        "name": "Nigiri de Camarón",
-        "price": 11300,
-        "description": "Se prepara con arroz de sushi y se coloca un camarón fresco encima, todo aderezado con una pequeña cantidad de wasabi en la parte superior., una porción de 2 piezas de Nigiri de Camarón contiene en promedio:, Calorías: 86, Proteínas: 3.6g, Carbohidratos: 16.7g, Azúcar: 0.6g, Grasa: 0.2g, Grasa Saturada: 0.1g, Grasa Monoinsaturada: 0.027g, Grasa Poliinsaturada: 0.033g, Colesterol: 21mg, Sodio: 201mg, Potasio: 50mg.",
-        "category": "Personal",
-        "image": "nigiridecamaron.avif"
-    },
-    {
-        "id": 8,
-        "name": "Nigiri de Pulpo",
-        "price": 9850,
-        "description": "Se prepara con arroz de sushi y se coloca un trozo de pulpo encima., una pieza de Nigiri de Pulpo contiene en promedio:, Calorías: 162, Proteínas: 5g, Carbohidratos: 25g, Grasa: 4g.",
-        "category": "Personal",
-        "image": "nigiridepulpo.avif"
-    },
-    {
-        "id": 9,
-        "name": "Nigiri de Anguila",
-        "price": 10500,
-        "description": "Se compone de una bola de arroz para sushi cubierta con una tira de anguila asada., 100 gramos de Nigiri de Anguila contienen en promedio:, Calorías: 184, Proteínas: 18.44g, Carbohidratos: 0g, Grasa: 11.66g, Colesterol: 126mg, Sodio: 51mg, Potasio: 50mg.",
-        "category": "Personal",
-        "image": "nigirideanguila.avif"
-    },
-    {
-        "id": 10,
-        "name": "Shashimi de Atún",
-        "price": 16500,
-        "description": "es una de las formas más populares de sushi donde el pescado se sirve sin arroz y se corta en finas tiras,  A diferencia de otros platos de sushi con atún, el sashimi se enfoca en el sabor natural y la textura del atún., 100 gramos de Sashimi de Atún contienen en promedio:, Calorías: 108, Proteínas: 23.38g, Carbohidratos: 0g, Grasa: 0.95g, Colesterol: 45mg, Sodio: 90mg, Potasio: 444mg.",
-        "category": "Personal",
-        "image": "shashimideatun.avif"
-    },
-    {
-        "id": 11,
-        "name": "Shashimi de Salmón",
-        "price": 12900,
-        "description": "es una forma de sushi en la que el pescado se sirve sin arroz y se corta en finas tiras. A diferencia de otros platos de sushi con salmón, el sashimi se enfoca en el sabor natural y la textura del salmón., 100 gramos de Sashimi de Salmón contienen en promedio:, Calorías: 146, Proteínas: 21.62g, Carbohidratos: 0g, Grasa: 5.93g, Colesterol: 45mg, Sodio: 51mg, Potasio: 423mg.",
-        "category": "Personal",
-        "image": "shashimidesalmon.avif"
-    },
-    {
-        "id": 12,
-        "name": "Shashimi de Pez Mantequilla",
-        "price": 29000,
-        "description": "Consiste en finas láminas de pez mantequilla crudo, que son deliciosas con un aliño o salsa., 100 gramos de Sashimi de Pez Mantequilla contienen en promedio:, Calorías: 31, Proteínas: 6.6g, Carbohidratos: 0g, Grasa: 0.3g.",
-        "category": "Personal",
-        "image": "shashimidepezmantequilla.avif"
-    },
-    {
-        "id": 13,
-        "name": "Shashimi de Vieira",
-        "price": 6400,
-        "description": "Consiste en finas láminas de vieira cruda, que son deliciosas con un aliño o salsa., 100 gramos de Sashimi de Vieira contienen en promedio:, Calorías: 84 kcal, Proteínas: 19 gr, Grasas: 0.9 gr, Hidratos de carbono: 0 gr, Calcio: 120 mg, Hierro: 2.4 mg, Zinc: 1.3 mg, Fósforo: 315 mg.",
-        "category": "Personal",
-        "image": "ShashimiDeVieira.avif"
-    },
-    {
-        "id": 14,
-        "name": "Maki de Pepino",
-        "price": 6350,
-        "description": "Se compone de una hoja de alga nori, arroz de sushi y tiras de pepino., una porción de 42 gramos de Maki de Pepino contiene en promedio:, Calorías: 17 Kcal, Carbohidratos: 2.1g, Grasa total: 0.6g, Grasa saturada: 0.1g, Proteínas: 0.4g, Fibras: 0.6g, Azúcar: 0.8g.",
-        "category": "Personal",
-        "image": "makidepepino.avif"
-    },
-    {
-        "id": 15,
-        "name": "Maki de Aguacate",
-        "price": 15450,
-        "description": "Se compone de una hoja de alga nori, arroz de sushi y tiras de aguacate., una pieza de Maki de Aguacate contiene en promedio:, Calorías: 28 Kcal, Carbohidratos: 5.21g, Grasa total: 0.52g, Grasa Saturada: 0.08g, Grasa Monoinsaturada: 0.338g, Grasa Poliinsaturada: 0.07g, Proteína: 0.46g, Fibra: 0.3g, Azúcar: 0.89g, Sodio: 463mg, Potasio: 173mg.",
-        "category": "Personal",
-        "image": "makideaguacate.avif"
-    },
-    {
-        "id": 16,
-        "name": "Maki de Cangrejo",
-        "price": 18350,
-        "description": "Se compone de una hoja de alga nori, arroz de sushi y palitos de cangrejo., 100 gramos de Maki de Cangrejo contienen en promedio:, Calorías: 124 kcal, Proteínas: 19.5g, Carbohidratos: 0g, Grasa total: 5.1g.",
-        "category": "Personal",
-        "image": "makidecangrejo.avif"
-    },
-    {
-        "id": 17,
-        "name": "Maki de Atún Picante",
-        "price": 16650,
-        "description": "Se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de atún cortado en dados pequeños, que ha sido sazonado con salsa Sriracha, cebolleta picada y aceite de sésamo., un Maki de Atún Picante tiene aproximadamente:, Calorías: 26, Proteínas: 1.17g, Carbohidratos: 4.92g, Grasa: 0.07g, Colesterol: 2mg, Sodio: 0.18g.",
-        "category": "Personal",
-        "image": "makideatunpicante.avif"
-    },
-    {
-        "id": 18,
-        "name": "Maki de Anguila Y Aguacate",
-        "price": 15400,
-        "description": "Se compone de una hoja de alga nori, cubierta con arroz de sushi sazonado. En el centro, se coloca una mezcla de anguila y aguacate., un Maki de Atún Picante tiene aproximadamente:, un Maki de Anguila y Aguacate tiene aproximadamente las siguientes propiedades por cada maki:, Calorías: 479 kcal, Proteínas: 32g, Carbohidratos: 35g, Grasa: 23g, Colesterol: 182mg, Sodio: 2.2g.",
-        "category": "Personal",
-        "image": "makideanguilayaguacate.avif"
-    },
-    {
-        "id": 19,
-        "name": "Uramaki California",
-        "price": 18500,
-        "description": "Se caracteriza por tener el arroz en el exterior y el alga nori en el interior, a diferencia de la mayoría de los rollos de sushi., un Uramaki California tiene aproximadamente las siguientes propiedades:, Calorías: 40 kcal, Proteínas: 1 g, Carbohidratos: 6 g, Grasas: 1 g.",
-        "category": "Personal",
-        "image": "uramakicalifornia.avif"
-    },
-    {
-        "id": 20,
-        "name": "Uramaki Filadelfia",
-        "price": 28250,
-        "description": "Es una variante de sushi que se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de salmón, tortilla y queso de untar Philadelphia., un Uramaki Filadelfia tiene aproximadamente las siguientes propiedades:, Calorías: 38 kcal, Proteínas: 1.2 g, Carbohidratos: 5.8 g, Grasas: 1.1 g.",
-        "category": "Personal",
-        "image": "uramakifiladelfia.avif"
-    },
-    {
-        "id": 21,
-        "name": "Uramaki Dragón",
-        "price": 22100,
-        "description": "Es una variante de sushi que se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de gambas tempurizadas, salmón, aguacate y pepino., un Uramaki Dragón tiene aproximadamente las siguientes propiedades:, Calorías: 56 kcal, Proteínas: 2 g, Carbohidratos: 5 g, Grasas: 3 g.",
-        "category": "Personal",
-        "image": "uramakidragon.avif"
-    },
-    {
-        "id": 22,
-        "name": "Uramaki Arcoiris",
-        "price": 27600,
-        "description": "Es una variante de sushi que se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de pepino, aguacate y queso crema. Lo que hace especial a este rollo es que cada bocado tiene encima un tipo de pescado distinto., un Uramaki Arcoiris tiene aproximadamente las siguientes propiedades:, Calorías: 34 kcal, Proteínas: 1.44 g, Carbohidratos: 6.44 g, Grasas: 0.15 g.",
-        "category": "Personal",
-        "image": "uramakiarcoiris.avif"
-    },
-    {
-        "id": 23,
-        "name": "Temaki De Cangrejo",
-        "price": 12500,
-        "description": "Es un tipo de sushi japonés que consiste en un cono de alga nori relleno de arroz, cangrejo y otros ingredientes como aguacate, pepino o mayonesa., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 150 kcal, Proteínas: 8 g, Grasas: 5 g, Hidratos de carbono: 20 g, Fibra: 1 g, Calcio: 20 mg, Hierro: 1 mg, Potasio: 150 mg, Sodio: 300 mg.",
-        "category": "Personal",
-        "image": "temakidecangrejo.avif"
-    },
-    {
-        "id": 24,
-        "name": "Temaki De Salmón",
-        "price": 19800,
-        "description": "Se prepara con un cono de alga nori relleno de arroz, salmón y otros ingredientes como queso crema, cebollín o sésamo., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 184 kcal, Proteínas: 9,3 g, Grasas: 1,94 g, Hidratos de carbono: 41 g, Fibra: 0,6 g, Calcio: 15 mg, Hierro: 0,8 mg, Potasio: 199 mg, Sodio: 590 mg.",
-        "category": "Personal",
-        "image": "temakidesalmon.avif"
-    },
-    {
-        "id": 25,
-        "name": "Temaki De Atún",
-        "price": 9700,
-        "description": "Se prepara con un cono de alga nori relleno de arroz, atún y otros ingredientes como zanahoria, cebolla o salsa picante., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 160 kcal, Proteínas: 10 g, Grasas: 6 g, Hidratos de carbono: 18 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,7 mg, Potasio: 180 mg, Sodio: 400 mg.",
-        "category": "Personal",
-        "image": "temakideatun.avif"
-    },
-    {
-        "id": 26,
-        "name": "Temaki De Anguila",
-        "price": 11600,
-        "description": "Se prepara con un cono de alga nori relleno de arroz, anguila y otros ingredientes como pepino, jengibre o salsa teriyaki., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 184 kcal, Proteínas: 14,5 g, Grasas: 11,7 g, Hidratos de carbono: 0 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283 mg, Sodio: 51 mg.",
-        "category": "Personal",
-        "image": "temakideanguila.avif"
-    },
-    {
-        "id": 27,
-        "name": "Gunkan de Ikura",
-        "price": 11050,
-        "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con huevas de salmón., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
-        "category": "Personal",
-        "image": "gunkandeikura.avif"
-    },
-    {
-        "id": 28,
-        "name": "Gunkan de Uni",
-        "price": 12850,
-        "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con huevas de erizo de mar., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
-        "category": "Personal",
-        "image": "gunkandeuni.avif"
-    },
-    {
-        "id": 29,
-        "name": "Gunkan de Tobiko",
-        "price": 16050,
-        "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con huevas de pez volador., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
-        "category": "Personal",
-        "image": "gunkandetobiko.avif"
-    },
-    {
-        "id": 30,
-        "name": "Gunkan de Cangrejo",
-        "price": 12800,
-        "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con carne de cangrejo., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
-        "category": "Personal",
-        "image": "gunkandecangrejo.avif"
-    },
-    {
-        "id": 31,
-        "name": "Chirashi de Mariscos",
-        "price": 22100,
-        "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con una variedad de mariscos frescos., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
-        "category": "Personal",
-        "image": "chirashidemariscos.avif"
-    },
-    {
-        "id": 32,
-        "name": "Chirashi de Verduras",
-        "price": 11400,
-        "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con una variedad de verduras frescas., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
-        "category": "Personal",
-        "image": "chirashideverduras.avif"
-    },
-    {
-        "id": 33,
-        "name": "Chirashi de Salmón",
-        "price": 22900,
-        "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con salmón fresco., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
-        "category": "Personal",
-        "image": "chirashidesalmon.avif"
-    },
-    {
-        "id": 34,
-        "name": "Chirashi de Atún",
-        "price": 14550,
-        "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con atún fresco., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
-        "category": "Personal",
-        "image": "chirashideatun.avif"
-    },
-    {
-        "id": 35,
-        "name": "Mochi de Mango",
-        "price": 5800,
-        "description": "Es un postre japonés que consiste en una pasta de arroz glutinoso rellena de puré de mango., una porción de unos 50 gramos tiene aproximadamente:, Calorías: 100 kcal, Proteínas: 1,5 g, Grasas: 0,5 g, Hidratos de carbono: 25 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,2 mg, Zinc: 0,1 mg, Potasio: 50 mg, Sodio: 5 mg.",
-        "category": "Postre",
-        "image": "mochidemango.avif"
-    },
-    {
-        "id": 36,
-        "name": "Mochi de Té Verde",
-        "price": 8950,
-        "description": "Es un postre japonés que consiste en una pasta de arroz glutinoso rellena de puré de té verde., una porción de unos 50 gramos tiene aproximadamente:, Calorías: 100 kcal, Proteínas: 1,5 g, Grasas: 0,5 g, Hidratos de carbono: 25 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,2 mg, Zinc: 0,1 mg, Potasio: 50 mg, Sodio: 5 mg.",
-        "category": "Postre",
-        "image": "mochideteverde.avif"
-    },
-    {
-        "id": 37,
-        "name": "Mochi de Fresa",
-        "price": 6350,
-        "description": "Es un postre japonés que consiste en una pasta de arroz glutinoso rellena de puré de fresa., una porción de unos 50 gramos tiene aproximadamente:, Calorías: 100 kcal, Proteínas: 1,5 g, Grasas: 0,5 g, Hidratos de carbono: 25 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,2 mg, Zinc: 0,1 mg, Potasio: 50 mg, Sodio: 5 mg.",
-        "category": "Postre",
-        "image": "mochidefresa.avif"
-    },
-    {
-        "id": 38,
-        "name": "Tempura de Plátano",
-        "price": 5050,
-        "description": "Es un postre japonés que consiste en plátano frito en una capa crujiente de tempura., una porción de unos 100 gramos tiene aproximadamente:, Calorías: 200 kcal, Proteínas: 1,5 g, Grasas: 10 g, Hidratos de carbono: 25 g, Fibra: 1,5 g, Calcio: 10 mg, Hierro: 0,3 mg, Zinc: 0,2 mg, Potasio: 150 mg, Sodio: 10 mg.",
-        "category": "Postre",
-        "image": "tempuradeplatano.avif"
-    },
-    {
-        "id": 39,
-        "name": "Tempura de Helado",
-        "price": 6200,
-        "description": "Es un postre japonés que consiste en helado envuelto en una capa crujiente de tempura y luego frito., una porción de unos 100 gramos tiene aproximadamente:, Calorías: 250 kcal, Proteínas: 3 g, Grasas: 15 g, Hidratos de carbono: 28 g, Fibra: 1 g, Calcio: 75 mg, Hierro: 0,5 mg, Zinc: 0,5 mg, Potasio: 150 mg, Sodio: 50 mg.",
-        "category": "Postre",
-        "image": "tempuradehelado.avif"
-    },
-    {
-        "id": 40,
-        "name": "Tarta de Queso Japonesa",
-        "price": 5600,
-        "description": "Es un postre japonés que consiste en una tarta de queso ligera y esponjosa., una porción de unos 100 gramos tiene aproximadamente:, Calorías: 250 kcal, Proteínas: 7 g, Grasas: 18 g, Hidratos de carbono: 20 g, Fibra: 0 g, Calcio: 70 mg, Hierro: 0,7 mg, Zinc: 0,4 mg, Potasio: 130 mg, Sodio: 200 mg.",
-        "category": "Postre",
-        "image": "tartadequesojaponesa.avif"
-    }
+  {
+    "id": 1,
+    "name": "Edamame",
+    "price": 4900,
+    "description": "es un grano de soja inmadura que todavía no se ha sacado de su vaina y que se puede consumir tal cual. Debido a su composición nutricional, se asocia con varios beneficios para la salud. Es rico en proteínas vegetales y bajo en calorías.Cada porción de 155 gramos de edamame aporta lo siguiente:, Calorías: 188, Grasa: 8 gramos, Sodio: 9,4 miligramos, Carbohidratos: 13,8 gramos, Fibra: 8 gramos, Azúcares: 3,4 gramos, Proteína: 18,4 gramos.",
+    "category": "Personal",
+    "image": "edamame.avif"
+  },
+  {
+    "id": 2,
+    "name": "Gyoza",
+    "price": 17650,
+    "description": "es una empanadilla japonesa que se rellena principalmente de carne y vegetales, se sirven con una salsa que se prepara con vinagre de arroz y aceite de sésamo., 100 gramos de Gyoza contienen en promedio:, Calorías: 186, Grasas: 8 gramos, Carbohidratos: 19 gramos, Proteínas: 8 gramos.",
+    "category": "Personal",
+    "image": "gioza.avif"
+  },
+  {
+    "id": 3,
+    "name": "Tempura de Camaron",
+    "price": 27250,
+    "description": "es un plato salado que consiste en camarones bañados en masa que se han frito en aceite hasta que su recubrimiento se vuelva crujiente y dorado., 5 piezas medianas de Tempura de Camarones contienen en promedio:, Calorías: 80, Proteínas: 10.02g, Carbohidratos: 5.7g, Fibra: 0.2g, Azúcar: 0.26g, Grasa: 1.53g, Grasa Saturada: 0.37g, Grasa Poliinsaturada: 0.444g, Grasa Monoinsaturada: 0.374g, Colesterol: 89mg, Sodio: 236mg, Potasio: 95mg.",
+    "category": "Personal",
+    "image": "tempuradecamaron.avif"
+  },
+  {
+    "id": 4,
+    "name": "Tempura de Verduras",
+    "price": 21300,
+    "description": "consiste en una variedad de vegetales bañados en una masa ligera y luego fritos hasta que la capa exterior se vuelve crujiente y dorada., 100 gramos de Tempura de Verduras contienen en promedio:, Calorías: 161, Proteínas: 4.23g, Carbohidratos: 13.78g, Fibra: 1.6g, Azúcar: 1.36g, Grasa: 10.09g, Grasa Saturada: 2.673g, Grasa Monoinsaturada: 5.528g, Grasa Poliinsaturada: 1.177g, Colesterol: 65mg, Sodio: 90mg, Potasio: 172mg.",
+    "category": "Personal",
+    "image": "tempuradeverdura.avif"
+  },
+  {
+    "id": 5,
+    "name": "Nigiri de Atún",
+    "price": 8400,
+    "description": "Se compone de una bola de arroz para sushi cubierta con una rebanada de atún de alta calidad., una pieza de Nigiri de Atún contiene en promedio:, Calorías: 46, Proteínas: 1.94g, Carbohidratos: 9.16g, Azúcar: 1.9g, Grasa: 0.12g, Grasa Saturada: 0.03g, Grasa Monoinsaturada: 0.027g, Grasa Poliinsaturada: 0.033g, Colesterol: 2mg, Sodio: 236mg, Potasio: 50mg.",
+    "category": "Personal",
+    "image": "nigirideatun.avif"
+  },
+  {
+    "id": 6,
+    "name": "Nigiri de Salmón",
+    "price": 14400,
+    "description": "Consiste en una pequeña porción de arroz para sushi moldeada a mano en forma de un pequeño cilindro, sobre la cual se coloca una fina lámina de salmón crudo., una pieza de Nigiri de Salmón contiene en promedio:, Calorías: 48, Proteínas: 1.85g, Carbohidratos: 9g, Azúcar: 1.92g, Grasa: 0.36g, Grasa Saturada: 0.081g, Grasa Monoinsaturada: 0.126g, Grasa Poliinsaturada: 0.118g, Colesterol: 2mg, Sodio: 236mg, Potasio: 49mg.",
+    "category": "Personal",
+    "image": "nigiridesalmon.avif"
+  },
+  {
+    "id": 7,
+    "name": "Nigiri de Camarón",
+    "price": 11300,
+    "description": "Se prepara con arroz de sushi y se coloca un camarón fresco encima, todo aderezado con una pequeña cantidad de wasabi en la parte superior., una porción de 2 piezas de Nigiri de Camarón contiene en promedio:, Calorías: 86, Proteínas: 3.6g, Carbohidratos: 16.7g, Azúcar: 0.6g, Grasa: 0.2g, Grasa Saturada: 0.1g, Grasa Monoinsaturada: 0.027g, Grasa Poliinsaturada: 0.033g, Colesterol: 21mg, Sodio: 201mg, Potasio: 50mg.",
+    "category": "Personal",
+    "image": "nigiridecamaron.avif"
+  },
+  {
+    "id": 8,
+    "name": "Nigiri de Pulpo",
+    "price": 9850,
+    "description": "Se prepara con arroz de sushi y se coloca un trozo de pulpo encima., una pieza de Nigiri de Pulpo contiene en promedio:, Calorías: 162, Proteínas: 5g, Carbohidratos: 25g, Grasa: 4g.",
+    "category": "Personal",
+    "image": "nigiridepulpo.avif"
+  },
+  {
+    "id": 9,
+    "name": "Nigiri de Anguila",
+    "price": 10500,
+    "description": "Se compone de una bola de arroz para sushi cubierta con una tira de anguila asada., 100 gramos de Nigiri de Anguila contienen en promedio:, Calorías: 184, Proteínas: 18.44g, Carbohidratos: 0g, Grasa: 11.66g, Colesterol: 126mg, Sodio: 51mg, Potasio: 50mg.",
+    "category": "Personal",
+    "image": "nigirideanguila.avif"
+  },
+  {
+    "id": 10,
+    "name": "Shashimi de Atún",
+    "price": 16500,
+    "description": "es una de las formas más populares de sushi donde el pescado se sirve sin arroz y se corta en finas tiras,  A diferencia de otros platos de sushi con atún, el sashimi se enfoca en el sabor natural y la textura del atún., 100 gramos de Sashimi de Atún contienen en promedio:, Calorías: 108, Proteínas: 23.38g, Carbohidratos: 0g, Grasa: 0.95g, Colesterol: 45mg, Sodio: 90mg, Potasio: 444mg.",
+    "category": "Personal",
+    "image": "shashimideatun.avif"
+  },
+  {
+    "id": 11,
+    "name": "Shashimi de Salmón",
+    "price": 12900,
+    "description": "es una forma de sushi en la que el pescado se sirve sin arroz y se corta en finas tiras. A diferencia de otros platos de sushi con salmón, el sashimi se enfoca en el sabor natural y la textura del salmón., 100 gramos de Sashimi de Salmón contienen en promedio:, Calorías: 146, Proteínas: 21.62g, Carbohidratos: 0g, Grasa: 5.93g, Colesterol: 45mg, Sodio: 51mg, Potasio: 423mg.",
+    "category": "Personal",
+    "image": "shashimidesalmon.avif"
+  },
+  {
+    "id": 12,
+    "name": "Shashimi de Pez Mantequilla",
+    "price": 29000,
+    "description": "Consiste en finas láminas de pez mantequilla crudo, que son deliciosas con un aliño o salsa., 100 gramos de Sashimi de Pez Mantequilla contienen en promedio:, Calorías: 31, Proteínas: 6.6g, Carbohidratos: 0g, Grasa: 0.3g.",
+    "category": "Personal",
+    "image": "shashimidepezmantequilla.avif"
+  },
+  {
+    "id": 13,
+    "name": "Shashimi de Vieira",
+    "price": 6400,
+    "description": "Consiste en finas láminas de vieira cruda, que son deliciosas con un aliño o salsa., 100 gramos de Sashimi de Vieira contienen en promedio:, Calorías: 84 kcal, Proteínas: 19 gr, Grasas: 0.9 gr, Hidratos de carbono: 0 gr, Calcio: 120 mg, Hierro: 2.4 mg, Zinc: 1.3 mg, Fósforo: 315 mg.",
+    "category": "Personal",
+    "image": "ShashimiDeVieira.avif"
+  },
+  {
+    "id": 14,
+    "name": "Maki de Pepino",
+    "price": 6350,
+    "description": "Se compone de una hoja de alga nori, arroz de sushi y tiras de pepino., una porción de 42 gramos de Maki de Pepino contiene en promedio:, Calorías: 17 Kcal, Carbohidratos: 2.1g, Grasa total: 0.6g, Grasa saturada: 0.1g, Proteínas: 0.4g, Fibras: 0.6g, Azúcar: 0.8g.",
+    "category": "Personal",
+    "image": "makidepepino.avif"
+  },
+  {
+    "id": 15,
+    "name": "Maki de Aguacate",
+    "price": 15450,
+    "description": "Se compone de una hoja de alga nori, arroz de sushi y tiras de aguacate., una pieza de Maki de Aguacate contiene en promedio:, Calorías: 28 Kcal, Carbohidratos: 5.21g, Grasa total: 0.52g, Grasa Saturada: 0.08g, Grasa Monoinsaturada: 0.338g, Grasa Poliinsaturada: 0.07g, Proteína: 0.46g, Fibra: 0.3g, Azúcar: 0.89g, Sodio: 463mg, Potasio: 173mg.",
+    "category": "Personal",
+    "image": "makideaguacate.avif"
+  },
+  {
+    "id": 16,
+    "name": "Maki de Cangrejo",
+    "price": 18350,
+    "description": "Se compone de una hoja de alga nori, arroz de sushi y palitos de cangrejo., 100 gramos de Maki de Cangrejo contienen en promedio:, Calorías: 124 kcal, Proteínas: 19.5g, Carbohidratos: 0g, Grasa total: 5.1g.",
+    "category": "Personal",
+    "image": "makidecangrejo.avif"
+  },
+  {
+    "id": 17,
+    "name": "Maki de Atún Picante",
+    "price": 16650,
+    "description": "Se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de atún cortado en dados pequeños, que ha sido sazonado con salsa Sriracha, cebolleta picada y aceite de sésamo., un Maki de Atún Picante tiene aproximadamente:, Calorías: 26, Proteínas: 1.17g, Carbohidratos: 4.92g, Grasa: 0.07g, Colesterol: 2mg, Sodio: 0.18g.",
+    "category": "Personal",
+    "image": "makideatunpicante.avif"
+  },
+  {
+    "id": 18,
+    "name": "Maki de Anguila Y Aguacate",
+    "price": 15400,
+    "description": "Se compone de una hoja de alga nori, cubierta con arroz de sushi sazonado. En el centro, se coloca una mezcla de anguila y aguacate., un Maki de Atún Picante tiene aproximadamente:, un Maki de Anguila y Aguacate tiene aproximadamente las siguientes propiedades por cada maki:, Calorías: 479 kcal, Proteínas: 32g, Carbohidratos: 35g, Grasa: 23g, Colesterol: 182mg, Sodio: 2.2g.",
+    "category": "Personal",
+    "image": "makideanguilayaguacate.avif"
+  },
+  {
+    "id": 19,
+    "name": "Uramaki California",
+    "price": 18500,
+    "description": "Se caracteriza por tener el arroz en el exterior y el alga nori en el interior, a diferencia de la mayoría de los rollos de sushi., un Uramaki California tiene aproximadamente las siguientes propiedades:, Calorías: 40 kcal, Proteínas: 1 g, Carbohidratos: 6 g, Grasas: 1 g.",
+    "category": "Personal",
+    "image": "uramakicalifornia.avif"
+  },
+  {
+    "id": 20,
+    "name": "Uramaki Filadelfia",
+    "price": 28250,
+    "description": "Es una variante de sushi que se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de salmón, tortilla y queso de untar Philadelphia., un Uramaki Filadelfia tiene aproximadamente las siguientes propiedades:, Calorías: 38 kcal, Proteínas: 1.2 g, Carbohidratos: 5.8 g, Grasas: 1.1 g.",
+    "category": "Personal",
+    "image": "uramakifiladelfia.avif"
+  },
+  {
+    "id": 21,
+    "name": "Uramaki Dragón",
+    "price": 22100,
+    "description": "Es una variante de sushi que se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de gambas tempurizadas, salmón, aguacate y pepino., un Uramaki Dragón tiene aproximadamente las siguientes propiedades:, Calorías: 56 kcal, Proteínas: 2 g, Carbohidratos: 5 g, Grasas: 3 g.",
+    "category": "Personal",
+    "image": "uramakidragon.avif"
+  },
+  {
+    "id": 22,
+    "name": "Uramaki Arcoiris",
+    "price": 27600,
+    "description": "Es una variante de sushi que se compone de una hoja de alga nori, cubierta con arroz de sushi. En el centro, se coloca una mezcla de pepino, aguacate y queso crema. Lo que hace especial a este rollo es que cada bocado tiene encima un tipo de pescado distinto., un Uramaki Arcoiris tiene aproximadamente las siguientes propiedades:, Calorías: 34 kcal, Proteínas: 1.44 g, Carbohidratos: 6.44 g, Grasas: 0.15 g.",
+    "category": "Personal",
+    "image": "uramakiarcoiris.avif"
+  },
+  {
+    "id": 23,
+    "name": "Temaki De Cangrejo",
+    "price": 12500,
+    "description": "Es un tipo de sushi japonés que consiste en un cono de alga nori relleno de arroz, cangrejo y otros ingredientes como aguacate, pepino o mayonesa., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 150 kcal, Proteínas: 8 g, Grasas: 5 g, Hidratos de carbono: 20 g, Fibra: 1 g, Calcio: 20 mg, Hierro: 1 mg, Potasio: 150 mg, Sodio: 300 mg.",
+    "category": "Personal",
+    "image": "temakidecangrejo.avif"
+  },
+  {
+    "id": 24,
+    "name": "Temaki De Salmón",
+    "price": 19800,
+    "description": "Se prepara con un cono de alga nori relleno de arroz, salmón y otros ingredientes como queso crema, cebollín o sésamo., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 184 kcal, Proteínas: 9,3 g, Grasas: 1,94 g, Hidratos de carbono: 41 g, Fibra: 0,6 g, Calcio: 15 mg, Hierro: 0,8 mg, Potasio: 199 mg, Sodio: 590 mg.",
+    "category": "Personal",
+    "image": "temakidesalmon.avif"
+  },
+  {
+    "id": 25,
+    "name": "Temaki De Atún",
+    "price": 9700,
+    "description": "Se prepara con un cono de alga nori relleno de arroz, atún y otros ingredientes como zanahoria, cebolla o salsa picante., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 160 kcal, Proteínas: 10 g, Grasas: 6 g, Hidratos de carbono: 18 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,7 mg, Potasio: 180 mg, Sodio: 400 mg.",
+    "category": "Personal",
+    "image": "temakideatun.avif"
+  },
+  {
+    "id": 26,
+    "name": "Temaki De Anguila",
+    "price": 11600,
+    "description": "Se prepara con un cono de alga nori relleno de arroz, anguila y otros ingredientes como pepino, jengibre o salsa teriyaki., una pieza de unos 100 gramos tiene aproximadamente:, Calorías: 184 kcal, Proteínas: 14,5 g, Grasas: 11,7 g, Hidratos de carbono: 0 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283 mg, Sodio: 51 mg.",
+    "category": "Personal",
+    "image": "temakideanguila.avif"
+  },
+  {
+    "id": 27,
+    "name": "Gunkan de Ikura",
+    "price": 11050,
+    "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con huevas de salmón., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
+    "category": "Personal",
+    "image": "gunkandeikura.avif"
+  },
+  {
+    "id": 28,
+    "name": "Gunkan de Uni",
+    "price": 12850,
+    "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con huevas de erizo de mar., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
+    "category": "Personal",
+    "image": "gunkandeuni.avif"
+  },
+  {
+    "id": 29,
+    "name": "Gunkan de Tobiko",
+    "price": 16050,
+    "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con huevas de pez volador., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
+    "category": "Personal",
+    "image": "gunkandetobiko.avif"
+  },
+  {
+    "id": 30,
+    "name": "Gunkan de Cangrejo",
+    "price": 12800,
+    "description": "Es un tipo de sushi japonés que consiste en un bocado de arroz envuelto en una tira de alga nori y coronado con carne de cangrejo., una pieza de unos 25 gramos tiene aproximadamente:, Calorías: 46 kcal, Proteínas: 3,6 g, Grasas: 3 g, Hidratos de carbono: 1 g, Fibra: 0 g, Calcio: 7,5 mg, Hierro: 0,3 mg, Zinc: 0,6 mg, Potasio: 70,8 mg, Sodio: 12,8 mg.",
+    "category": "Personal",
+    "image": "gunkandecangrejo.avif"
+  },
+  {
+    "id": 31,
+    "name": "Chirashi de Mariscos",
+    "price": 22100,
+    "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con una variedad de mariscos frescos., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
+    "category": "Personal",
+    "image": "chirashidemariscos.avif"
+  },
+  {
+    "id": 32,
+    "name": "Chirashi de Verduras",
+    "price": 11400,
+    "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con una variedad de verduras frescas., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
+    "category": "Personal",
+    "image": "chirashideverduras.avif"
+  },
+  {
+    "id": 33,
+    "name": "Chirashi de Salmón",
+    "price": 22900,
+    "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con salmón fresco., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
+    "category": "Personal",
+    "image": "chirashidesalmon.avif"
+  },
+  {
+    "id": 34,
+    "name": "Chirashi de Atún",
+    "price": 14550,
+    "description": "Es un tipo de sushi japonés que consiste en un cuenco de arroz de sushi cubierto con atún fresco., una porción de unos 200 gramos tiene aproximadamente:, Calorías: 368 kcal, Proteínas: 14,4 g, Grasas: 6 g, Hidratos de carbono: 4 g, Fibra: 0 g, Calcio: 30 mg, Hierro: 1,2 mg, Zinc: 2,4 mg, Potasio: 283,2 mg, Sodio: 51,2 mg.",
+    "category": "Personal",
+    "image": "chirashideatun.avif"
+  },
+  {
+    "id": 35,
+    "name": "Mochi de Mango",
+    "price": 5800,
+    "description": "Es un postre japonés que consiste en una pasta de arroz glutinoso rellena de puré de mango., una porción de unos 50 gramos tiene aproximadamente:, Calorías: 100 kcal, Proteínas: 1,5 g, Grasas: 0,5 g, Hidratos de carbono: 25 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,2 mg, Zinc: 0,1 mg, Potasio: 50 mg, Sodio: 5 mg.",
+    "category": "Postre",
+    "image": "mochidemango.avif"
+  },
+  {
+    "id": 36,
+    "name": "Mochi de Té Verde",
+    "price": 8950,
+    "description": "Es un postre japonés que consiste en una pasta de arroz glutinoso rellena de puré de té verde., una porción de unos 50 gramos tiene aproximadamente:, Calorías: 100 kcal, Proteínas: 1,5 g, Grasas: 0,5 g, Hidratos de carbono: 25 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,2 mg, Zinc: 0,1 mg, Potasio: 50 mg, Sodio: 5 mg.",
+    "category": "Postre",
+    "image": "mochideteverde.avif"
+  },
+  {
+    "id": 37,
+    "name": "Mochi de Fresa",
+    "price": 6350,
+    "description": "Es un postre japonés que consiste en una pasta de arroz glutinoso rellena de puré de fresa., una porción de unos 50 gramos tiene aproximadamente:, Calorías: 100 kcal, Proteínas: 1,5 g, Grasas: 0,5 g, Hidratos de carbono: 25 g, Fibra: 0,5 g, Calcio: 10 mg, Hierro: 0,2 mg, Zinc: 0,1 mg, Potasio: 50 mg, Sodio: 5 mg.",
+    "category": "Postre",
+    "image": "mochidefresa.avif"
+  },
+  {
+    "id": 38,
+    "name": "Tempura de Plátano",
+    "price": 5050,
+    "description": "Es un postre japonés que consiste en plátano frito en una capa crujiente de tempura., una porción de unos 100 gramos tiene aproximadamente:, Calorías: 200 kcal, Proteínas: 1,5 g, Grasas: 10 g, Hidratos de carbono: 25 g, Fibra: 1,5 g, Calcio: 10 mg, Hierro: 0,3 mg, Zinc: 0,2 mg, Potasio: 150 mg, Sodio: 10 mg.",
+    "category": "Postre",
+    "image": "tempuradeplatano.avif"
+  },
+  {
+    "id": 39,
+    "name": "Tempura de Helado",
+    "price": 6200,
+    "description": "Es un postre japonés que consiste en helado envuelto en una capa crujiente de tempura y luego frito., una porción de unos 100 gramos tiene aproximadamente:, Calorías: 250 kcal, Proteínas: 3 g, Grasas: 15 g, Hidratos de carbono: 28 g, Fibra: 1 g, Calcio: 75 mg, Hierro: 0,5 mg, Zinc: 0,5 mg, Potasio: 150 mg, Sodio: 50 mg.",
+    "category": "Postre",
+    "image": "tempuradehelado.avif"
+  },
+  {
+    "id": 40,
+    "name": "Tarta de Queso Japonesa",
+    "price": 5600,
+    "description": "Es un postre japonés que consiste en una tarta de queso ligera y esponjosa., una porción de unos 100 gramos tiene aproximadamente:, Calorías: 250 kcal, Proteínas: 7 g, Grasas: 18 g, Hidratos de carbono: 20 g, Fibra: 0 g, Calcio: 70 mg, Hierro: 0,7 mg, Zinc: 0,4 mg, Potasio: 130 mg, Sodio: 200 mg.",
+    "category": "Postre",
+    "image": "tartadequesojaponesa.avif"
+  }
 ]
