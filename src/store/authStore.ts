@@ -1,5 +1,4 @@
 import { defineStore } from "pinia";
-import { useRouter } from "vue-router";
 
 export const useAuthStore = defineStore("auth", {
   state: () => ({
@@ -16,8 +15,7 @@ export const useAuthStore = defineStore("auth", {
     checkOut() {
       this.name = "";
       this.color = "";
-      const router = useRouter();
-      router.push("/");
+      location.href = "/";
     },
   },
   getters: {
