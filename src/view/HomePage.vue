@@ -1,18 +1,28 @@
 <script setup>
 import { ref } from "vue";
-import { useAuthStore } from "../store/authStore";
+import { useAuthStore } from "@/store/authStore";
 import { useRouter } from "vue-router";
+import { Button } from "@/components/ui/button";
+import { LoaderCircle } from "lucide-vue-next";
 
 const authStore = useAuthStore();
 const color = ref("#000000");
 const nombre = ref("");
-
+const isLoading = ref(false);
 const router = useRouter();
 
+function timeOut() {
+  setTimeout(() => {
+    isLoading.value = false;
+    router.push("/product");
+  }, 2000);
+}
+
 function handleSubmit() {
+  isLoading.value = true;
   authStore.setName(nombre.value);
   authStore.setColor(color.value);
-  router.push("/product");
+  timeOut();
 }
 </script>
 
@@ -34,17 +44,24 @@ function handleSubmit() {
         <p class="text-yellow-400 font-bold">Ingresa tu color favorito</p>
         <input
           type="color"
-          class="mx-5 rounded-3xl"
+          class="mx-5 rounded-md w-5 h-5"
           v-model="color"
           name="color"
         />
       </label>
-      <button
+      <Button
+        v-if="!isLoading"
         type="submit"
-        class="w-1/4 h-10 rounded-3xl border-2 border-yellow-400 bg-black text-yellow-400 text-center text-xl font-bold"
+        variant="ghost"
+        class="text-yellow-400 font-bold text-xl"
+        >Continuar</Button
       >
-        Continuar
-      </button>
+      <Button v-else disabled variant="ghost">
+        <LoaderCircle
+          class="w-10 h-10 animate-spin text-yellow-400"
+          strokeWidth="3"
+        />
+      </Button>
     </form>
   </div>
 </template>
