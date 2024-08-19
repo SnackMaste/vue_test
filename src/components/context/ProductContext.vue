@@ -2,7 +2,7 @@
 import { getProducts } from "@/services/apiService";
 import { provide, ref, onMounted } from "vue";
 
-const products = ref(null);
+const products = ref([]);
 
 onMounted(async () => {
   products.value = await getProducts();
