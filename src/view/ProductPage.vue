@@ -18,7 +18,7 @@ interface Product {
 
 const authStore = useAuthStore();
 const color = authStore.color;
-const products = inject<Ref<Product[]>>("products", ref([])); 
+const products = inject<Ref<Product[]>>("products", ref([]));
 const dialog = ref<InstanceType<typeof ModalDetail> | null>(null);
 const nombre = ref<string>("");
 const descripcion = ref<string>("");
