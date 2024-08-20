@@ -14,8 +14,11 @@ interface Product {
   description: string;
   category: string;
   image: string;
+  cantidad: number;
+  precioTotal: number;
 }
-
+const totalProducts = ref(0);
+const totalPrice = ref(0);
 const authStore = useAuthStore();
 const color = authStore.color;
 const products = inject<Ref<Product[]>>("products", ref([]));
@@ -43,6 +46,32 @@ const filteredProducts = computed<Product[]>(() => {
       .includes(searchQuery.value.toLowerCase());
   });
 });
+
+const actualizarCantidad = ({
+  id,
+  cantidad,
+  precio,
+}: {
+  id: string;
+  cantidad: number;
+  precio: number;
+}) => {
+  const producto = filteredProducts.value.find(
+    (product) => String(product.id) === id,
+  );
+  if (producto) {
+    const priceTotal = cantidad * precio;
+    const diferencia = cantidad - (producto.cantidad || 0);
+    const diferenciaPrice = priceTotal - (producto.precioTotal || 0);
+    producto.precioTotal = priceTotal;
+    producto.cantidad = cantidad;
+    totalProducts.value += diferencia;
+    totalPrice.value += diferenciaPrice;
+  }
+  console.log(
+    `Producto ID: ${id}, Cantidad: ${cantidad}, Total Productos: ${totalProducts.value}, Total Precio: ${totalPrice.value}`,
+  );
+};
 </script>
 
 <template>
@@ -68,7 +97,9 @@ const filteredProducts = computed<Product[]>(() => {
     </div>
     <ProductCard
       v-for="product in filteredProducts"
+      @update:cantidad="actualizarCantidad"
       :key="product.id"
+      :id="String(product.id)"
       :color="color"
       :image="product.image"
       :name="product.name"
@@ -81,7 +112,11 @@ const filteredProducts = computed<Product[]>(() => {
       "
     />
   </div>
-  <CarShop class="fixed bottom-20 right-10" />
+  <CarShop
+    class="fixed bottom-20 right-10"
+    :counter="totalProducts"
+    :precio="totalPrice"
+  />
   <ModalDetail
     ref="dialog"
     :description="descripcion"
