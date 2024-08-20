@@ -5,6 +5,7 @@ import { inject, ref, computed, Ref } from "vue";
 import ModalDetail from "@/components/modals/ModalDetail.vue";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-vue-next";
+import CarShop from "@/components/CarShop.vue";
 
 interface Product {
   id: number;
@@ -17,7 +18,7 @@ interface Product {
 
 const authStore = useAuthStore();
 const color = authStore.color;
-const products = inject<Ref<Product[]>>("products");
+const products = inject<Ref<Product[]>>("products", ref([])); 
 const dialog = ref<InstanceType<typeof ModalDetail> | null>(null);
 const nombre = ref<string>("");
 const descripcion = ref<string>("");
@@ -43,6 +44,7 @@ const filteredProducts = computed<Product[]>(() => {
   });
 });
 </script>
+
 <template>
   <div class="flex flex-wrap justify-center w-full text-yellow-400">
     <div class="w-full flex justify-around items-center my-5">
@@ -79,6 +81,7 @@ const filteredProducts = computed<Product[]>(() => {
       "
     />
   </div>
+  <CarShop class="fixed bottom-20 right-10" />
   <ModalDetail
     ref="dialog"
     :description="descripcion"
