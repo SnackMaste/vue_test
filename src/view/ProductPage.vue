@@ -14,9 +14,14 @@ interface Product {
   description: string;
   category: string;
   image: string;
-  cantidad: number;
-  precioTotal: number;
 }
+const listCarShop: {
+  id: number;
+  cantidad: number;
+  precio: number;
+  name: string;
+  precioTotalProduct: number;
+}[] = [];
 const totalProducts = ref(0);
 const totalPrice = ref(0);
 const authStore = useAuthStore();
@@ -47,30 +52,50 @@ const filteredProducts = computed<Product[]>(() => {
   });
 });
 
-const actualizarCantidad = ({
+const addProductCarShop = ({
   id,
   cantidad,
   precio,
+  name,
 }: {
-  id: string;
+  id: number;
   cantidad: number;
   precio: number;
+  name: string;
 }) => {
-  const producto = filteredProducts.value.find(
-    (product) => String(product.id) === id,
-  );
-  if (producto) {
-    const priceTotal = cantidad * precio;
-    const diferencia = cantidad - (producto.cantidad || 0);
-    const diferenciaPrice = priceTotal - (producto.precioTotal || 0);
-    producto.precioTotal = priceTotal;
-    producto.cantidad = cantidad;
-    totalProducts.value += diferencia;
-    totalPrice.value += diferenciaPrice;
+  const index = listCarShop.findIndex((item) => item.id === id);
+  if (index !== -1) {
+    if (cantidad === 0) {
+      listCarShop.splice(index, 1);
+    } else {
+      const precioTotal = cantidad * precio;
+      listCarShop[index].precioTotalProduct = precioTotal;
+      listCarShop[index].cantidad = cantidad;
+    }
+  } else {
+    const precioTotal = cantidad * precio;
+    listCarShop.push({
+      id,
+      cantidad,
+      precio,
+      name,
+      precioTotalProduct: precioTotal,
+    });
   }
-  console.log(
-    `Producto ID: ${id}, Cantidad: ${cantidad}, Total Productos: ${totalProducts.value}, Total Precio: ${totalPrice.value}`,
-  );
+
+  updateIndicatorCarShop();
+};
+
+const updateIndicatorCarShop = () => {
+  let productos = 0;
+  let precios = 0;
+  listCarShop.forEach((item) => {
+    productos += item.cantidad;
+    precios += item.precioTotalProduct;
+  });
+
+  totalProducts.value = productos;
+  totalPrice.value = precios;
 };
 </script>
 
@@ -97,7 +122,7 @@ const actualizarCantidad = ({
     </div>
     <ProductCard
       v-for="product in filteredProducts"
-      @update:cantidad="actualizarCantidad"
+      @update:cantidad="addProductCarShop"
       :key="product.id"
       :id="String(product.id)"
       :color="color"
