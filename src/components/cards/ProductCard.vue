@@ -50,6 +50,7 @@ watch(cantidad, (nuevoValor) => {
     id: props.id,
     cantidad: nuevoValor,
     precio: props.price,
+    name: props.name,
   });
 });
 </script>
